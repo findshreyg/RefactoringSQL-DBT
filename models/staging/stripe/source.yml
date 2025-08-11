@@ -1,0 +1,6 @@
+sources:
+    - name: stripe
+      description: schema that contains only one table thats payments
+      database: raw
+      tables:
+        - name: payment

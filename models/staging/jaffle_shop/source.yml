@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: raw
+    description: The name of the schema which consist of two tables customers and orders
+    tables:
+      - name: customers
+        description: customers is the table name with attributes id (number), first_name (string) , last_name (string)
+        
+      - name: orders
+        description: orders in the name of the table
+
